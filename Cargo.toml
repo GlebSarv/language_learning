@@ -1,0 +1,18 @@
+[package]
+name = "language_learning"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-rt = "2.9.0"
+actix-web = "4.4.0"
+serde = { version = "1.0.188", features = ["derive"] }
+dotenv = "0.15.0"
+config = "0.13.1"
+tokio-postgres = "0.7.6"
+slog = "2.7.0"
+slog-term = "2.9.0"
+slog-async = "2.7.0"
+tokio = { version = "1.32.0", features = ["full"] }
